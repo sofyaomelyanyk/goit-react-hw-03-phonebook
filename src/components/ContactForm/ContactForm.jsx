@@ -1,5 +1,6 @@
 import { Component } from "react";
 import s from "./ContactForm.module.css"
+import { ReactComponent as AddIcon } from "../icons/add.svg";
 
 
 export class ContactForm extends Component {
@@ -61,7 +62,7 @@ export class ContactForm extends Component {
              />
          </label>
          <button type='submit' className={s["button"]}>
-            ADD CONTACT
+            <AddIcon width="60" height="60"/>
          </button>
       </form>
     )

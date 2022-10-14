@@ -11,13 +11,10 @@
   font-family: cursive;
   display: flex;
   gap: 15px;
-  align-items: baseline;
+  align-items: center;
 }
 
 .button {
-  margin: 15px auto;
-  padding: 15px 20px;
-
   font-family: cursive;
   font-weight: 700;
 

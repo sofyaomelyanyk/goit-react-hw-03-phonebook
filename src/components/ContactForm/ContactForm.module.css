@@ -19,26 +19,26 @@
   font-size: 16px;
   color: #212529;
   background-color: #fff;
-  border: 1px solid #bdbdbd;
+  border: 1px solid rgb(36 104 70);
   border-radius: 4px;
 }
 
 .button {
-  margin: 15px auto;
-  padding: 15px 20px;
+  margin: 0 auto;
 
   font-family: cursive;
   font-weight: 700;
 
   color: white;
-  border-radius: 4px;
+  border-radius: 50%;
   border: 1px solid rgb(36, 104, 70);
-  background: rgb(44, 142, 91);
+  background: rgb(122, 183, 151);
   box-shadow: 0 -3px rgb(36, 104, 70) inset;
-  transform: scale(1);
   cursor: pointer;
+  transform: scale(1)
 }
 
 .button:hover {
-  transform: scale(1.05);
+   transform: scale(1.05);
+  
 }

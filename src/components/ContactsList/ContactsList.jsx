@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './ContactsList.module.css'
+import { ReactComponent as DeleteIcon } from "../icons/delete.svg";
 
 export const ContactsList = ({ contacts, deleteContact }) => {
    return (
@@ -9,7 +10,7 @@ export const ContactsList = ({ contacts, deleteContact }) => {
                    <span>{name}: </span>
                    <span>{number}</span>
 
-                   <button type='button' onClick={() => deleteContact(id)} className={s["button"]}>Delete</button>
+                   <button type='button' onClick={() => deleteContact(id)} className={s["button"]}>< DeleteIcon width="40" height="40" /></button>
                </li>
            ))}
        </ul>
