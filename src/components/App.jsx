@@ -22,7 +22,7 @@ export class App extends Component {
       const parsedContacts = JSON.parse(contacts)
 
       if(parsedContacts){
-         this.setstate({contacts: parsedContacts})
+         this.setState({contacts: parsedContacts})
       }
    }
 
